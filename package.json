@@ -19,6 +19,7 @@
     "lint:fix": "biome lint . --fix --unsafe"
   },
   "dependencies": {
+    "@auth/drizzle-adapter": "^1.10.0",
     "@paralleldrive/cuid2": "^2.2.2",
     "@radix-ui/react-slot": "^1.2.3",
     "@t3-oss/env-nextjs": "^0.13.8",
@@ -32,6 +33,7 @@
     "drizzle-zod": "^0.8.3",
     "lucide-react": "^0.537.0",
     "next": "15.4.6",
+    "next-auth": "^5.0.0-beta.29",
     "next-themes": "^0.4.6",
     "postgres": "^3.4.7",
     "react": "19.1.0",
